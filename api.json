@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Login",
+        "route":"/api/auth/signin",
+        "headers":[],
+        "body":{
+            "username":"test1",
+            "password":"password1"
+        },
+        "returns":{
+            "data": ["token", "_id", "email", "username"]
+        }
+    }
+]
